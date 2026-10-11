@@ -1,6 +1,6 @@
 # LiveInspectAI
 
-**Real-time Visual Anomaly Detection System**
+**Hệ thống phát hiện bất thường bằng hình ảnh theo thời gian thực sử dụng AI**
 
 LiveInspectAI là dự án ứng dụng Computer Vision và Deep Learning để phát hiện, phân vùng và trực quan hóa các vùng bất thường trên bề mặt sản phẩm từ hình ảnh hoặc camera trực tiếp.
 
