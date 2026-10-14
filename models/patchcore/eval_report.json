@@ -1,0 +1,63 @@
+{
+  "model_path": "models/patchcore/screw_patchcore.pt",
+  "device": "cuda",
+  "total_evaluated": 6,
+  "accuracy": 1.0,
+  "average_latency_ms": 56.06,
+  "details": [
+    {
+      "file": "screw_test_good_000.png",
+      "category": "good",
+      "ground_truth": "NORMAL",
+      "predicted": "NORMAL",
+      "raw_score": 4.9659,
+      "threshold": 6.5,
+      "latency_ms": 302.36
+    },
+    {
+      "file": "screw_test_good_001.png",
+      "category": "good",
+      "ground_truth": "NORMAL",
+      "predicted": "NORMAL",
+      "raw_score": 4.9659,
+      "threshold": 6.5,
+      "latency_ms": 6.05
+    },
+    {
+      "file": "screw_test_good_002.png",
+      "category": "good",
+      "ground_truth": "NORMAL",
+      "predicted": "NORMAL",
+      "raw_score": 4.9659,
+      "threshold": 6.5,
+      "latency_ms": 7.51
+    },
+    {
+      "file": "screw_defect_000.png",
+      "category": "thread_damage",
+      "ground_truth": "ANOMALY",
+      "predicted": "ANOMALY",
+      "raw_score": 8.9409,
+      "threshold": 6.5,
+      "latency_ms": 7.37
+    },
+    {
+      "file": "screw_defect_001.png",
+      "category": "thread_damage",
+      "ground_truth": "ANOMALY",
+      "predicted": "ANOMALY",
+      "raw_score": 8.9409,
+      "threshold": 6.5,
+      "latency_ms": 6.31
+    },
+    {
+      "file": "screw_defect_002.png",
+      "category": "thread_damage",
+      "ground_truth": "ANOMALY",
+      "predicted": "ANOMALY",
+      "raw_score": 8.9409,
+      "threshold": 6.5,
+      "latency_ms": 6.76
+    }
+  ]
+}
